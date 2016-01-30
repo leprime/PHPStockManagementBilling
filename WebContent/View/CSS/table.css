@@ -1,0 +1,44 @@
+#searchresult {
+  margin: 0 auto;
+  font-size: 1.2em;
+  margin-bottom: 1%;
+}
+
+td a
+{
+	cursor:help;
+}
+
+#searchresult thead {
+  cursor: help;
+  background: #c9dff0;
+}
+#searchresult thead tr th { 
+  font-weight: bold;
+  text-align: center;
+}
+#searchresult thead tr th span { 
+
+  background-repeat: no-repeat;
+}
+
+#searchresult thead tr th.headerSortUp, #searchresult thead tr th.headerSortDown {
+  background: #acc8dd;
+}
+
+#searchresult thead tr th.headerSortUp span {
+ 
+}
+#searchresult thead tr th.headerSortDown span {
+}
+
+
+#searchresult tbody tr { 
+  color: #555;
+}
+#searchresult tbody tr td {
+  text-align: center;
+}
+#searchresult tbody tr td.lalign {
+  text-align: left;
+}

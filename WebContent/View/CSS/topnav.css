@@ -1,0 +1,39 @@
+#topnav
+{
+	overflow: hidden;
+	padding: 1%;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	position: fixed;
+	width: 97%;
+	background: #000;
+	text-align: center;
+	z-index: 2;
+	display: inline;
+	float:left;
+	top:0%;
+	box-shadow: 1px 1px 1px #888888;
+	
+}
+#topnav n a:hover
+{
+	padding: 2%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	background-color: #e4f3dd;
+	border:thin ;
+	border-radius: 10px;
+	transition:0.5s ease;
+}
+#navbtn
+{
+	text-decoration:none;
+	padding: 2%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	border:thin ;
+	border-radius: 10px;
+	color: #3facbe;
+	transition:color 5s ease;
+	
+}
